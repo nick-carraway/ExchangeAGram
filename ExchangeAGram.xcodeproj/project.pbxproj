@@ -66,7 +66,6 @@
 		2CA8594C1B54CEB50050DF33 = {
 			isa = PBXGroup;
 			children = (
-				2CA859811B55FC430050DF33 /* MobileCoreServices.framework */,
 				2CA859571B54CEB50050DF33 /* ExchangeAGram */,
 				2CA859701B54CEB50050DF33 /* ExchangeAGramTests */,
 				2CA859561B54CEB50050DF33 /* Products */,
@@ -100,6 +99,7 @@
 		2CA859581B54CEB50050DF33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CA859811B55FC430050DF33 /* MobileCoreServices.framework */,
 				2CA859591B54CEB50050DF33 /* Info.plist */,
 			);
 			name = "Supporting Files";
