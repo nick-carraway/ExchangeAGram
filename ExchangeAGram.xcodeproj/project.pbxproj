@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C80348D1B58273A000A2B6E /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80348C1B58273A000A2B6E /* FilterCell.swift */; };
 		2CA8595B1B54CEB50050DF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8595A1B54CEB50050DF33 /* AppDelegate.swift */; };
 		2CA8595E1B54CEB50050DF33 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8595C1B54CEB50050DF33 /* ExchangeAGram.xcdatamodeld */; };
 		2CA859631B54CEB50050DF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA859611B54CEB50050DF33 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C80348C1B58273A000A2B6E /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 		2CA859551B54CEB50050DF33 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA859591B54CEB50050DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA8595A1B54CEB50050DF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		2CA8594C1B54CEB50050DF33 = {
 			isa = PBXGroup;
 			children = (
+				2C80348C1B58273A000A2B6E /* FilterCell.swift */,
 				2CA859571B54CEB50050DF33 /* ExchangeAGram */,
 				2CA859701B54CEB50050DF33 /* ExchangeAGramTests */,
 				2CA859561B54CEB50050DF33 /* Products */,
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C80348D1B58273A000A2B6E /* FilterCell.swift in Sources */,
 				2CC194601B57484A006CF5F4 /* FilterViewController.swift in Sources */,
 				2CA8595B1B54CEB50050DF33 /* AppDelegate.swift in Sources */,
 				2CA859801B55D08B0050DF33 /* FeedCell.swift in Sources */,
