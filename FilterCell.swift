@@ -18,6 +18,7 @@ class FilterCell: UICollectionViewCell {
         
         contentView.addSubview(imageView)
         
+        
     }
 
     required init(coder aDecoder: NSCoder) {

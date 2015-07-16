@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2C80348D1B58273A000A2B6E /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80348C1B58273A000A2B6E /* FilterCell.swift */; };
+		2C8034A71B5834B9000A2B6E /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8034A41B5834B9000A2B6E /* Placeholder.png */; };
+		2C8034A81B5834B9000A2B6E /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8034A51B5834B9000A2B6E /* Placeholder@2x.png */; };
+		2C8034A91B5834B9000A2B6E /* Placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8034A61B5834B9000A2B6E /* Placeholder@3x.png */; };
 		2CA8595B1B54CEB50050DF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8595A1B54CEB50050DF33 /* AppDelegate.swift */; };
 		2CA8595E1B54CEB50050DF33 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8595C1B54CEB50050DF33 /* ExchangeAGram.xcdatamodeld */; };
 		2CA859631B54CEB50050DF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA859611B54CEB50050DF33 /* Main.storyboard */; };
@@ -32,13 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C80348C1B58273A000A2B6E /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		2C80348C1B58273A000A2B6E /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterCell.swift; path = ../FilterCell.swift; sourceTree = "<group>"; };
+		2C8034A41B5834B9000A2B6E /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Placeholder.png; path = "/Users/alanrandell-chen/Downloads/ExchangeAGramPlaceHolders/Placeholder.png"; sourceTree = "<absolute>"; };
+		2C8034A51B5834B9000A2B6E /* Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Placeholder@2x.png"; path = "/Users/alanrandell-chen/Downloads/ExchangeAGramPlaceHolders/Placeholder@2x.png"; sourceTree = "<absolute>"; };
+		2C8034A61B5834B9000A2B6E /* Placeholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Placeholder@3x.png"; path = "/Users/alanrandell-chen/Downloads/ExchangeAGramPlaceHolders/Placeholder@3x.png"; sourceTree = "<absolute>"; };
 		2CA859551B54CEB50050DF33 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA859591B54CEB50050DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA8595A1B54CEB50050DF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA8595D1B54CEB50050DF33 /* ExchangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram.xcdatamodel; sourceTree = "<group>"; };
 		2CA859621B54CEB50050DF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2CA859641B54CEB50050DF33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CA859641B54CEB50050DF33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Desktop/ExchangeAGram/ExchangeAGram/Images.xcassets; sourceTree = "<group>"; };
 		2CA859671B54CEB50050DF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2CA8596D1B54CEB50050DF33 /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA859721B54CEB50050DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,10 +75,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C80348E1B583488000A2B6E /* ExchangeAGram */ = {
+			isa = PBXGroup;
+			children = (
+				2CA859641B54CEB50050DF33 /* Images.xcassets */,
+				2C8034A41B5834B9000A2B6E /* Placeholder.png */,
+				2C8034A51B5834B9000A2B6E /* Placeholder@2x.png */,
+				2C8034A61B5834B9000A2B6E /* Placeholder@3x.png */,
+				2C8034A31B5834B9000A2B6E /* ExchangeAGramPlaceHolders */,
+			);
+			name = ExchangeAGram;
+			path = ../../../Downloads/ExchangeAGram;
+			sourceTree = "<group>";
+		};
+		2C8034A31B5834B9000A2B6E /* ExchangeAGramPlaceHolders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ExchangeAGramPlaceHolders;
+			path = ../ExchangeAGramPlaceHolders;
+			sourceTree = "<group>";
+		};
 		2CA8594C1B54CEB50050DF33 = {
 			isa = PBXGroup;
 			children = (
-				2C80348C1B58273A000A2B6E /* FilterCell.swift */,
 				2CA859571B54CEB50050DF33 /* ExchangeAGram */,
 				2CA859701B54CEB50050DF33 /* ExchangeAGramTests */,
 				2CA859561B54CEB50050DF33 /* Products */,
@@ -95,9 +121,10 @@
 				2CA8597F1B55D08B0050DF33 /* FeedCell.swift */,
 				2CA859831B5613880050DF33 /* FeedItem.swift */,
 				2CA8597D1B54DB320050DF33 /* FeedViewController.swift */,
+				2C80348C1B58273A000A2B6E /* FilterCell.swift */,
 				2CC1945F1B57484A006CF5F4 /* FilterViewController.swift */,
 				2CA859611B54CEB50050DF33 /* Main.storyboard */,
-				2CA859641B54CEB50050DF33 /* Images.xcassets */,
+				2C80348E1B583488000A2B6E /* ExchangeAGram */,
 				2CA859661B54CEB50050DF33 /* LaunchScreen.xib */,
 				2CA8595C1B54CEB50050DF33 /* ExchangeAGram.xcdatamodeld */,
 				2CA859581B54CEB50050DF33 /* Supporting Files */,
@@ -211,7 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8034A81B5834B9000A2B6E /* Placeholder@2x.png in Resources */,
 				2CA859631B54CEB50050DF33 /* Main.storyboard in Resources */,
+				2C8034A71B5834B9000A2B6E /* Placeholder.png in Resources */,
+				2C8034A91B5834B9000A2B6E /* Placeholder@3x.png in Resources */,
 				2CA859681B54CEB50050DF33 /* LaunchScreen.xib in Resources */,
 				2CA859651B54CEB50050DF33 /* Images.xcassets in Resources */,
 			);
