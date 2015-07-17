@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ExchangeAGram/FilterViewController.swift"
-            timestampString = "458843159.775333"
+            timestampString = "458867578.171531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "filteredImageFromImage(_:filter:)"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "photoFilters()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ExchangeAGram/FilterViewController.swift"
-            timestampString = "458843159.775333"
+            timestampString = "458867578.171531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "filteredImageFromImage(_:filter:)"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "photoFilters()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
